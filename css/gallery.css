@@ -3,6 +3,9 @@
     display: none;
   }
 }
+.main-gallery {
+  padding-bottom: 120px;
+}
 .main-description {
   display: flex;
   padding: 0;

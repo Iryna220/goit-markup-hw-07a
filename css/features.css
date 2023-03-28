@@ -5,6 +5,7 @@
 }
 .features {
   padding-top: 96px;
+  padding-bottom: 96px;
 }
 .features-description {
   display: flex;

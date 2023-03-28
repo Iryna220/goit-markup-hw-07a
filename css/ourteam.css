@@ -1,6 +1,6 @@
 .employee-page {
   padding-top: 96px;
-  padding-bottom: 128px;
+  padding-bottom: 96px;
   background: var(--icons-color);
 }
 .employee-container {
@@ -70,4 +70,21 @@
   fill: var(--icons-color);
 }
 @media screen and (min-width: 768px) {
+  .employee-page {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+  .employee-list {
+    row-gap: 64px;
+    column-gap: 24px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .employee-page {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .employee-list {
+    gap: 24px;
+  }
 }

@@ -1,5 +1,4 @@
 .hero {
-  max-width: 428px;
   background: var(--primary-text-color);
   background-image: linear-gradient(
       to right rgba(46, 47, 66, 0.7),
@@ -28,7 +27,6 @@
   }
 }
 .hero-container {
-  width: 320px;
   display: flex;
   flex-direction: column;
   align-items: center;

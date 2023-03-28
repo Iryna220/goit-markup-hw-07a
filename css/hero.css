@@ -104,10 +104,11 @@
         url(../images/desctop/people-office\ 1@2x.jpg);
     }
   }
-}
-.hero-container {
-  gap: 48px;
-}
-.titel-hero {
-  width: 496px;
+
+  .hero-container {
+    gap: 48px;
+  }
+  .titel-hero {
+    width: 496px;
+  }
 }

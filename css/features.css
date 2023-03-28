@@ -1,0 +1,41 @@
+@media screen and (max-width: 1199px) {
+  .features-list-icon {
+    display: none;
+  }
+}
+.features {
+  padding-top: 96px;
+}
+.features-description {
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+}
+.features-caption {
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--primary-text-color);
+}
+.features-text {
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .features-caption {
+    text-align: start;
+  }
+  .features-description {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 72px;
+    gap: 24px;
+    padding: 0;
+  }
+  .features-list {
+    width: 356px;
+  }
+}

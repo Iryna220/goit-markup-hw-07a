@@ -39,13 +39,16 @@
 .logo-second-dark {
   color: var(--primary-text-color);
 }
-.mobile-menu-open {
+.mobile-menu-burger {
   width: 32px;
   height: 32px;
   stroke: var(--primary-text-color);
 }
 @media screen and (min-width: 768px) {
   .mobile-menu {
+    display: none;
+  }
+  .mobile-menu-burger {
     display: none;
   }
   .navigation {

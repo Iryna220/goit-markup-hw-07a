@@ -52,7 +52,7 @@
 .adress-page {
   font-style: normal;
 }
-.contact-adress .page {
+/* .contact-adress .page {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -104,10 +104,10 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
-  color: var(--icons-color);
+  color: var(--icons-color); */
 }
 /* Hero */
-.title-hero {
+/* .title-hero {
   margin-top: 0;
   margin-bottom: 48px;
   max-width: 496px;
@@ -120,7 +120,7 @@
   color: var(--background-origin);
 }
 
-.hero {
+ .hero { 
   max-width: 1440px;
   background: var(--primary-text-color);
   background-image: linear-gradient(
@@ -140,7 +140,7 @@
 .btn-hero:hover,
 .btn-hero:focus {
   color: var(--background-origin);
-  background: var(--accent-kolor);
+  background: var(--accent-kolor); 
 }
 .btn-hero {
   padding: 16px 32px;
@@ -156,9 +156,9 @@
   background: var(--brand-color);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-/* features */
-.features-list-link {
+} */
+ /* features 
+ .features-list-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -190,9 +190,9 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--second-text-color);
-}
+}  */
 /* gallery-content */
-.main-titel {
+/* .main-titel {
   margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
@@ -209,7 +209,7 @@
 .main-photo {
   flex-basis: calc((100% - 2 * 24px) / 3);
   border: 1px solid #e7e9fc;
-}
+} */
 /* employee-content */
 .employee-page {
   background: var(--icons-color);

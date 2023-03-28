@@ -39,3 +39,30 @@
     width: 356px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .features-description {
+    flex-wrap: nowrap;
+  }
+  .features-caption {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+  .features-text {
+    font-weight: 400;
+  }
+  .features-list-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 264px;
+    height: 112px;
+    border-radius: 4px;
+    background: var(--icons-color);
+    margin-bottom: 8px;
+  }
+
+  .features-list {
+    flex-basis: calc((100% - 3 * 24px) / 4);
+  }
+}

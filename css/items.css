@@ -1,0 +1,22 @@
+.btn-hero:hover,
+.btn-hero:focus {
+  color: var(--background-origin);
+  background: var(--accent-kolor);
+}
+.btn-hero {
+  display: flex;
+  align-items: center;
+  padding: 16px 32px;
+  border-radius: 4px;
+  border: none;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.5;
+  cursor: pointer;
+  letter-spacing: 0.04em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  color: var(--background-origin);
+  background: var(--brand-color);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

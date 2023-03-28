@@ -40,7 +40,9 @@
   color: var(--primary-text-color);
 }
 .mobile-menu-open {
-  fill: var(--primary-text-color);
+  width: 32px;
+  height: 32px;
+  stroke: var(--primary-text-color);
 }
 @media screen and (min-width: 768px) {
   .mobile-menu {

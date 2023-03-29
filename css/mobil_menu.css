@@ -19,6 +19,7 @@
     flex-direction: column;
     align-content: space-between;
     padding: 80px 35px 40px 40px;
+    position: relative;
   }
   .mobile-close-btn {
     position: absolute;
@@ -52,6 +53,7 @@
     margin-top: auto;
   }
   .adress-mobile-list {
+    font-style: normal;
     display: flex;
     flex-direction: column;
     gap: 40px;

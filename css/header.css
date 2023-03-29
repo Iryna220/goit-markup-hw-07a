@@ -37,7 +37,6 @@
   text-transform: uppercase;
   text-decoration: none;
   color: var(--brand-color);
-  padding: 24px 0;
 }
 .logo-second-dark {
   color: var(--primary-text-color);

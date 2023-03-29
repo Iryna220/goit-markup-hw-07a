@@ -35,6 +35,7 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #e7e9fc;
+  margin-top: 16px;
 }
 .footer-social-titel {
   font-weight: 500;
@@ -68,8 +69,8 @@
 }
 .subscribe-part {
   display: flex;
-  text-align: center;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .subscribe-titel {
   display: block;
@@ -91,7 +92,8 @@
 }
 .modal-form-subscribe {
   height: 40px;
-  border: 1px solid var(--background-origin);
+  border: 1px solid #ffffff;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   color: var(--background-origin);
   font-size: 16px;
   border-radius: 4px;

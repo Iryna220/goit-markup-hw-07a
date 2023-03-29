@@ -43,6 +43,8 @@
   color: var(--primary-text-color);
 }
 .mobile-menu-burger {
+  border: none;
+  background: transparent;
   width: 32px;
   height: 32px;
   fill: var(--primary-text-color);

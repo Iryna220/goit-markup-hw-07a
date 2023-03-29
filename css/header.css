@@ -38,6 +38,9 @@
   text-decoration: none;
   color: var(--brand-color);
 }
+.logo-first-item {
+  padding: 24px 0;
+}
 .logo-second-dark {
   color: var(--primary-text-color);
 }

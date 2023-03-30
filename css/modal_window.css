@@ -20,6 +20,7 @@
 .current {
   color: var(--brand-color);
 }
+
 @media screen and (min-width: 400px) {
   .modal {
     width: 392px;

@@ -1,3 +1,21 @@
+.address-mobile-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.sociaal-list-link-modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--brand-color);
+}
+
 @media screen and (max-width: 768px) {
   .mobile-menu {
     display: flex;

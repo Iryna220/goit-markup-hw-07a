@@ -153,8 +153,10 @@
   width: 1px;
   height: 1px;
 }
+.modal-form-item {
+  font-size: 12px;
+}
 .modal-form-check-span {
-  font-size: 8px;
   line-height: 1.33;
   letter-spacing: 0.04em;
   text-decoration-line: underline;
@@ -164,7 +166,7 @@
   .modal-form-check-desc {
     font-size: 12px;
   }
-  .modal-form-check-span {
+  .modal-form-item {
     font-size: 12px;
   }
 }
